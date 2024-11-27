@@ -1,0 +1,5 @@
+server:
+  # 服务器将支持的关闭类型。
+  shutdown: graceful
+  # 服务器 HTTP 端口。
+  port: 80
