@@ -3,3 +3,7 @@ server:
   shutdown: graceful
   # 服务器 HTTP 端口。
   port: 80
+
+spring:
+  application:
+    name: spider

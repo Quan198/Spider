@@ -36,6 +36,13 @@
                 <scope>import</scope>
             </dependency>
 
+            <!-- https://mvnrepository.com/artifact/com.lmax/disruptor -->
+            <dependency>
+                <groupId>com.lmax</groupId>
+                <artifactId>disruptor</artifactId>
+                <version>3.4.2</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

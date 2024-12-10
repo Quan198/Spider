@@ -13,6 +13,7 @@
 
     <properties>
         <service>1.0-SNAPSHOT</service>
+        <config>1.0-SNAPSHOT</config>
     </properties>
 
     <dependencies>
@@ -23,12 +24,22 @@
         </dependency>
 
         <dependency>
+            <groupId>com.belle</groupId>
+            <artifactId>config</artifactId>
+            <version>${config}</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -37,6 +48,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jetty</artifactId>
         </dependency>
+
     </dependencies>
 
     <build>

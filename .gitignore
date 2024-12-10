@@ -1,3 +1,4 @@
 /controller/target/classes
 .idea
 /controller.iml
+/config/target/classes
